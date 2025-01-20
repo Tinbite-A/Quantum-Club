@@ -283,11 +283,8 @@
     height: 41px;
     display: flex;
     padding: var(--dl-space-space-halfunit);
-    align-items: flex-start;
     margin-left: var(--dl-space-space-tripleunit);
     border-radius: var(--dl-radius-radius-radius4);
-    flex-direction: row;
-    justify-content: flex-start;
   }
   .home-heading-container {
     width: 100%;
@@ -301,10 +298,7 @@
   .home-burger-menu {
     width: 209px;
     height: 37px;
-    align-items: flex-start;
     margin-left: var(--dl-space-space-doubleunit);
-    flex-direction: row;
-    justify-content: flex-start;
     background-color: transparent;
   }
   .home-hero-text-container {

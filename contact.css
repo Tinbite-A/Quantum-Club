@@ -44,7 +44,7 @@
   }
 }
 
-.contact-container1 {
+.contact-container {
   width: 100%;
   display: flex;
   min-height: 100vh;
@@ -80,7 +80,7 @@
   text-decoration: none;
 }
  
-.contact-links-container1 {
+.contact-links-container {
   display: flex;
   align-items: flex-start;
   flex-direction: row;
@@ -95,71 +95,18 @@
   text-decoration: none;
 }
  
-.contact-mobile-menu {
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100vh;
-  display: none;
-  padding: var(--dl-space-space-tripleunit);
-  position: absolute;
-  align-items: flex-start;
-  flex-direction: column;
-  background-color: #fff;
-}
- 
-.contact-container2 {
-  flex: 0 0 auto;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: row;
-  justify-content: space-between;
-}
- 
-.contact-close-menu {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
- 
-.contact-icon1 {
-  width: 24px;
-  height: 24px;
-}
- 
-.contact-links-container2 {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
- 
-.contact-link3 {
-  margin-bottom: var(--dl-space-space-unit);
-}
- 
-.contact-link4 {
-  margin-bottom: var(--dl-space-space-unit);
-}
- 
-.contact-link5 {
-  margin-bottom: var(--dl-space-space-unit);
-}
- 
 .contact-burger-menu {
   display: none;
   align-items: flex-start;
   flex-direction: column;
 }
  
-.contact-link7 {
+.contact-link3 {
   margin-right: var(--dl-space-space-tripleunit);
   text-decoration: none;
 }
  
-.contact-link8 {
+.contact-link4 {
   text-decoration: none;
 }
  
@@ -171,7 +118,7 @@
   display: inline-block;
 }
  
-.contact-link9 {
+.contact-link5 {
   display: contents;
 }
  
@@ -181,17 +128,11 @@
   text-decoration: none;
 }
  
-@media(max-width: 991px) {
-  .contact-heading {
-    text-align: center;
-  }
-}
- 
 @media(max-width: 767px) {
   .contact-navbar {
     position: relative;
   }
-  .contact-links-container1 {
+  .contact-links-container {
     display: none;
   }
   .contact-burger-menu {
