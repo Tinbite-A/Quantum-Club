@@ -216,7 +216,7 @@
 @media(max-width: 479px) {
   .home-heading {
     color: rgb(4, 4, 4);
-    font-size: 90px;
+    font-size: 400%;
     font-family: Overpass;
     font-weight: 900;
     line-height: 1.22;
