@@ -46,7 +46,7 @@
   text-decoration: none;
 }
  
-.home-links-container1 {
+.home-links-container {
   display: flex;
   align-items: flex-start;
   flex-direction: row;
@@ -59,74 +59,6 @@
  
 .home-link2 {
   text-decoration: none;
-}
- 
-.home-burger-menu {
-  display: none;
-  align-items: flex-start;
-  flex-direction: column;
-}
- 
-.home-link3 {
-  margin-right: var(--dl-space-space-tripleunit);
-  text-decoration: none;
-}
- 
-.home-link4 {
-  text-decoration: none;
-}
- 
-.home-mobile-menu {
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100vh;
-  display: none;
-  padding: var(--dl-space-space-tripleunit);
-  position: absolute;
-  align-items: flex-start;
-  flex-direction: column;
-  background-color: #fff;
-}
- 
-.home-container2 {
-  flex: 0 0 auto;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  margin-bottom: var(--dl-space-space-doubleunit);
-  flex-direction: row;
-  justify-content: space-between;
-}
- 
-.home-close-menu {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
- 
-.home-icon1 {
-  width: 24px;
-  height: 24px;
-}
- 
-.home-links-container2 {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
- 
-.home-link5 {
-  margin-bottom: var(--dl-space-space-unit);
-}
- 
-.home-link6 {
-  margin-bottom: var(--dl-space-space-unit);
-}
- 
-.home-link7 {
-  margin-bottom: var(--dl-space-space-unit);
 }
  
 .home-section-separator1 {
@@ -148,7 +80,7 @@
   background-color: var(--dl-color-gray-900);
 }
  
-.home-container3 {
+.home-container2 {
   width: 100%;
   height: 454px;
   display: flex;
@@ -178,7 +110,7 @@
   background-color: #f9c34e;
 }
  
-.home-heading2 {
+.home-heading {
   color: #040404;
   width: auto;
   font-size: 90;
@@ -250,9 +182,6 @@
 }
  
 @media(max-width: 991px) {
-  .home-heading1 {
-    text-align: center;
-  }
   .home-hero {
     align-items: center;
     flex-direction: column;
@@ -275,16 +204,8 @@
   .home-navbar {
     position: relative;
   }
-  .home-links-container1 {
+  .home-links-container {
     display: none;
-  }
-  .home-burger-menu {
-    width: 267px;
-    height: 41px;
-    display: flex;
-    padding: var(--dl-space-space-halfunit);
-    margin-left: var(--dl-space-space-tripleunit);
-    border-radius: var(--dl-radius-radius-radius4);
   }
   .home-heading-container {
     width: 100%;
@@ -295,12 +216,6 @@
 }
  
 @media(max-width: 479px) {
-  .home-burger-menu {
-    width: 209px;
-    height: 37px;
-    margin-left: var(--dl-space-space-doubleunit);
-    background-color: transparent;
-  }
   .home-hero-text-container {
     width: 100%;
   }
