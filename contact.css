@@ -112,12 +112,3 @@
   height: 351px;
   text-decoration: none;
 }
- 
-@media(max-width: 767px) {
-  .contact-navbar {
-    position: relative;
-  }
-  .contact-links-container {
-    display: none;
-  }
-}
