@@ -19,7 +19,7 @@
   background-color: var(--dl-color-gray-white);
 }
  
-.home-navbarq {
+.home-navbar {
   width: 100%;
   height: 93px;
   display: flex;
@@ -222,7 +222,7 @@
 }
  
 @media(max-width: 767px) {
-  .home-navbarq {
+  .home-navbar {
     position: relative;
   }
   .home-heading-container {
