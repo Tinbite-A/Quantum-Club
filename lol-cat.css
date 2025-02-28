@@ -1,0 +1,69 @@
+.lol-cat-container {
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+   
+  .lol-cat-navbar {
+    width: 100%;
+    height: 93px;
+    display: flex;
+    max-width: auto;
+    align-items: center;
+    padding-top: var(--dl-space-space-tripleunit);
+    padding-left: var(--dl-space-space-tripleunit);
+    padding-right: var(--dl-space-space-tripleunit);
+    flex-direction: row;
+    padding-bottom: var(--dl-space-space-tripleunit);
+    justify-content: space-between;
+    background-color: #e6b03d;
+  }
+   
+  .lol-cat-navlink {
+    display: contents;
+  }
+   
+  .lol-cat-image1 {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    margin-left: 50px;
+    text-decoration: none;
+  }
+   
+  .lol-cat-links-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+   
+  .lol-cat-link1 {
+    margin-right: var(--dl-space-space-tripleunit);
+    text-decoration: none;
+  }
+   
+  .lol-cat-link2 {
+    text-decoration: none;
+  }
+   
+  .lol-cat-image2 {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+  }
+   
+  @media(max-width: 767px) {
+    .lol-cat-navbar {
+      position: relative;
+    }
+  }
+   
+  @media(max-width: 479px) {
+    .lol-cat-image2 {
+      width: 90%;
+      height: auto;
+    }
+  }
+  
