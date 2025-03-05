@@ -1,49 +1,3 @@
-.logos1-wrapper {
-  display: contents;
-}
- 
-.logos1-container1 {
-  gap: 48px;
-  width: 100%;
-  display: flex;
-  position: relative;
-  align-items: center;
-  flex-direction: column;
-}
- 
-.logos1-max-width {
-  gap: 32px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
- 
-.logos1-text1 {
-  text-align: center;
-}
- 
-.logos1-container2 {
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-}
- 
-.contact-fragment {
-  display: contents;
-}
- 
-.contact-text {
-  display: inline-block;
-}
- 
-@media(max-width: 767px) {
-  .logos1-container1 {
-    gap: 32px;
-  }
-  .logos1-max-width {
-    gap: 32px;
-  }
-}
-
 .contact-container {
   width: 100%;
   display: flex;
@@ -72,7 +26,7 @@
   display: contents;
 }
  
-.contact-image {
+.contact-image1 {
   width: 64px;
   height: 64px;
   object-fit: cover;
@@ -95,26 +49,73 @@
   text-decoration: none;
 }
  
-.contact-fragment {
-  display: contents;
-}
- 
-.contact-text {
-  display: inline-block;
-}
- 
 .contact-link3 {
   display: contents;
 }
  
 .contact-pasted-image {
-  width: 628px;
-  height: 351px;
+  width: 60%;
+  height: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
   text-decoration: none;
+}
+ 
+.contact-link4 {
+  display: contents;
+}
+ 
+.contact-image2 {
+  width: 30%;
+  object-fit: cover;
+  margin-bottom: 80px;
+  text-decoration: none;
+}
+ 
+.contact-link5 {
+  display: contents;
+}
+ 
+.contact-image3 {
+  width: 30%;
+  object-fit: cover;
+  margin-bottom: 60px;
+  text-decoration: none;
+}
+ 
+@media(max-width: 991px) {
+  .contact-pasted-image {
+    margin-bottom: 80px;
+  }
+  .contact-image2 {
+    width: 30%;
+    margin-bottom: 80px;
+  }
 }
  
 @media(max-width: 767px) {
   .contact-navbar {
     position: relative;
+  }
+  .contact-pasted-image {
+    margin-bottom: 80px;
+  }
+  .contact-image2 {
+    width: 30%;
+    margin-bottom: 80px;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .contact-pasted-image {
+    width: 80%;
+    margin-bottom: 80px;
+  }
+  .contact-image2 {
+    width: 40%;
+    margin-bottom: 80px;
+  }
+  .contact-image3 {
+    width: 40%;
   }
 }
