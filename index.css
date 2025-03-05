@@ -58,8 +58,10 @@
 }
  
 .home-link2 {
+  margin-right: var(--dl-space-space-tripleunit);
   text-decoration: none;
 }
+  
 
 .home-link3 {
   font-size: 24px;
