@@ -46,10 +46,21 @@
 }
  
 .contact-link2 {
+  margin-right: var(--dl-space-space-tripleunit);
   text-decoration: none;
 }
  
 .contact-link3 {
+  font-size: 24px;
+  font-family: "Overpass";
+  font-weight: 700;
+  line-height: 1.55;
+  margin-right: var(--dl-space-space-tripleunit);
+  text-transform: none;
+  text-decoration: none;
+}
+ 
+.contact-link4 {
   display: contents;
 }
  
@@ -60,7 +71,7 @@
   text-decoration: none;
 }
  
-.contact-link4 {
+.contact-link5 {
   display: contents;
 }
  
@@ -100,6 +111,15 @@
 }
  
 @media(max-width: 479px) {
+  .contact-link1 {
+    margin-right: var(--dl-space-space-unit);
+  }
+  .contact-link2 {
+    margin-right: var(--dl-space-space-unit);
+  }
+  .contact-link3 {
+    margin-right: var(--dl-space-space-halfunit);
+  }
   .contact-pasted-image {
     width: 80%;
     margin-bottom: 80px;

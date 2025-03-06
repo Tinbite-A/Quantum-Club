@@ -56,11 +56,7 @@
   margin-right: var(--dl-space-space-tripleunit);
   text-decoration: none;
 }
- 
-.home-link2 {
-  margin-right: var(--dl-space-space-tripleunit);
-  text-decoration: none;
-}
+
   
 
 .home-link3 {
@@ -211,6 +207,11 @@
   text-decoration: none;
 }
  
+.home-link2 {
+  margin-right: var(--dl-space-space-tripleunit);
+  text-decoration: none;
+}
+
 @media(max-width: 991px) {
   .home-hero {
     align-items: center;
