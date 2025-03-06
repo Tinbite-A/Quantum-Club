@@ -80,6 +80,7 @@
 .contact-image3 {
   width: 30%;
   object-fit: cover;
+  margin-bottom: 80px;
 }
  
 @media(max-width: 991px) {
@@ -125,5 +126,6 @@
   }
   .contact-image3 {
     width: 40%;
+    margin-bottom: 80px;
   }
 }
