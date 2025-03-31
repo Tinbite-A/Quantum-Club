@@ -60,7 +60,7 @@
 }
  
 .contact-pasted-image {
-  width: 60%;
+  width: 20%;
   height: auto;
   margin-bottom: 80px;
   text-decoration: none;
@@ -71,14 +71,14 @@
 }
  
 .contact-image2 {
-  width: 30%;
+  width: 20%;
   object-fit: cover;
   margin-bottom: 80px;
   text-decoration: none;
 }
  
 .contact-image3 {
-  width: 30%;
+  width: 20%;
   object-fit: cover;
   margin-bottom: 80px;
 }
